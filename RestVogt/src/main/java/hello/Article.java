@@ -1,10 +1,31 @@
 package hello;
 
-public class Article {
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
+import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 
-    private final long id;
-    private final String title;
-    private final String body;
+@Entity
+/*@NamedQueries({@NamedQuery(
+        name="Search",
+        query="From Article where title like %:inhalt%"
+),
+        })
+*/
+public class Article {
+    @Id
+    @Column
+    @GeneratedValue
+    private long id;
+
+    @Column
+    private String title;
+    @Column
+    private String body;
 
     public Article(long id,String title, String body) {
         this.id = id;
@@ -12,8 +33,12 @@ public class Article {
         this.body = body;
     }
 
-    public long getId() {
-        return id;
+    public Article() {
+    }
+
+
+    public void setId(long id){
+        this.id = id;
     }
 
     public String getTitle(){
@@ -22,5 +47,17 @@ public class Article {
 
     public String getBody() {
         return body;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setBody(String body) {
+        this.body = body;
     }
 }
