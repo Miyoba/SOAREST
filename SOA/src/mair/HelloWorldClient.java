@@ -24,6 +24,8 @@ public class HelloWorldClient{
 
         HelloWorld hello = service.getPort(HelloWorld.class);
 
+
+
         System.out.println(hello.getHelloWorldAsString(search()));
 
     }
@@ -45,6 +47,7 @@ public class HelloWorldClient{
                 return line;
             }
         }
+
         return null;
     }
 
