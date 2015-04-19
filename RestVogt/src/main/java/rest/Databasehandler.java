@@ -1,4 +1,4 @@
-package hello;
+package rest;
 
 import org.hibernate.Query;
 import org.hibernate.Session;
@@ -13,6 +13,11 @@ public class Databasehandler {
     public Article article;
     private AtomicLong counter = new AtomicLong();
 
+    /**
+     * Restful method that Inserts a new entry in the database
+     * @param title
+     * @param body
+     */
     public void InsertHandler(String title, String body){
         article = new Article();
         Session session = HibernateUtil.getSessionFactory().openSession();
@@ -25,6 +30,10 @@ public class Databasehandler {
         session.close();
     }
 
+    /**
+     * Deletes a entry from the database
+     * @param id
+     */
     public void DeleteHandler(int id){
         Session session = HibernateUtil.getSessionFactory().openSession();
         session.beginTransaction();
@@ -34,6 +43,12 @@ public class Databasehandler {
         session.close();
     }
 
+    /**
+     * Changes a Entry in the Database
+     * @param id
+     * @param title
+     * @param body
+     */
     public void UpdateHandler(int id, String title, String body){
         article = new Article();
         Session session = HibernateUtil.getSessionFactory().openSession();

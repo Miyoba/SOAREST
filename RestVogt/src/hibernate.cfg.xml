@@ -10,7 +10,7 @@
     <property name="hibernate.show_sql">false</property>
     <property name="hibernate.hbm2ddl.auto">update</property>
     <property name="javax.persistence.validation.mode">none</property>
-    <mapping class="hello.Article"/>
+    <mapping class="rest.Article"/>
     <!-- List of XML mapping files -->
   </session-factory>
 </hibernate-configuration>

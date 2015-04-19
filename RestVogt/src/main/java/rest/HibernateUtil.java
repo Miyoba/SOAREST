@@ -1,9 +1,7 @@
-package hello;
+package rest;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-
-import java.io.File;
 
 public class HibernateUtil {
 

@@ -3,9 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hibernate.cfg.xml" charset="windows-1252" />
-    <file url="file://$PROJECT_DIR$/src/Reservierung.hbm.xml" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/hibernate.cfg.xml" charset="windows-1252" />
-    <file url="file://$PROJECT_DIR$/src/main/java/hello/hibernate.cfg.xml" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" charset="windows-1252" />
   </component>
 </project>

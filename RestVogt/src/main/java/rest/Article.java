@@ -1,21 +1,12 @@
-package hello;
+package rest;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.NamedQueries;
-import javax.persistence.NamedQuery;
-import javax.persistence.OneToMany;
-import javax.persistence.OneToOne;
 
 @Entity
-/*@NamedQueries({@NamedQuery(
-        name="Search",
-        query="From Article where title like %:inhalt%"
-),
-        })
-*/
+
 public class Article {
     @Id
     @Column
