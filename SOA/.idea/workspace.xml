@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SOAClient:jar" />
+      <artifact name="SOAPublisher:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a17e969d-8b1b-40b4-ae0e-34fc44c43690" name="Default" comment="" />
     <ignored path="SOA.iws" />
@@ -29,8 +35,8 @@
       <file leaf-file-name="SOAClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mair/SOAClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6186709" vertical-offset="0" max-vertical-offset="1003">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.72626585" vertical-offset="0" max-vertical-offset="1003">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -190,6 +196,20 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SOA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SOA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mair" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -208,13 +228,13 @@
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Libraries/mysql-connector-java-5.0.8/mysql-connector-java-5.0.8-bin.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out" />
     <property name="FullScreen" value="false" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$/../../../Libraries" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -538,8 +558,8 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.SOAClient" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SOAPublisher" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SOAPublisher" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SOAClient" />
         <item index="2" class="java.lang.String" itemvalue="Application.TempStart" />
       </list>
     </recent_temporary>
@@ -557,12 +577,12 @@
       <workItem from="1429200036723" duration="7871000" />
       <workItem from="1429446455461" duration="679000" />
       <workItem from="1429447441137" duration="3812000" />
-      <workItem from="1429451674662" duration="10809000" />
+      <workItem from="1429451674662" duration="12493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23171000" />
+    <option name="totallyTimeSpent" value="24855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -781,8 +801,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mair/SOAClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6186709" vertical-offset="0" max-vertical-offset="1003">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.72626585" vertical-offset="0" max-vertical-offset="1003">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -795,10 +815,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>SOAClient:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
