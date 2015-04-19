@@ -10,7 +10,7 @@ import java.net.URL;
 import javax.xml.namespace.QName;
 import javax.xml.ws.Service;
 
-public class HelloWorldClient{
+public class SOAClient {
 
     public static void main(String[] args) throws Exception {
 
@@ -18,15 +18,15 @@ public class HelloWorldClient{
 
         //1st argument service URI, refer to wsdl document above
         //2nd argument is service name, refer to wsdl document above
-        QName qname = new QName("http://mair/", "HelloWorldImplService");
+        QName qname = new QName("http://mair/", "SOAImplService");
 
         Service service = Service.create(url, qname);
 
-        HelloWorld hello = service.getPort(HelloWorld.class);
+        SOA hello = service.getPort(SOA.class);
 
 
 
-        System.out.println(hello.getHelloWorldAsString(search()));
+        System.out.println(hello.searcher(search()));
 
     }
 
