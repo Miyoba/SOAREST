@@ -577,12 +577,12 @@
       <workItem from="1429200036723" duration="7871000" />
       <workItem from="1429446455461" duration="679000" />
       <workItem from="1429447441137" duration="3812000" />
-      <workItem from="1429451674662" duration="12493000" />
+      <workItem from="1429451674662" duration="13175000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24855000" />
+    <option name="totallyTimeSpent" value="25537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -815,7 +815,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>SOAClient:jar</last-edited>
+          <last-edited>SOAPublisher:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
